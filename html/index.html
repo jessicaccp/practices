@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML practice</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            
+            <!-- Page content / start -->
+            <h1>HTML Practice</h1>
+            <hr>
+
+            <section>
+                <h2>Table of contents</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#base-structure">Base structure</a></li>
+                        <li><a href="#all-tags">All tags</a></li>
+                        <li><a href="#forms">Forms</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <hr>
+
+            <section>
+                <h2 id="base-structure">Base structure</h2>
+                <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="utf-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+            &lt;title&gt;Page Title&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;header&gt;&lt;/header&gt;
+            &lt;main&gt;&lt;/main&gt;
+            &lt;footer&gt;&lt;/footer&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+                </pre>
+            </section>
+            <hr>
+
+            <section>
+                <h2 id="all-tags">All tags</h2>
+                <h3>Main</h3>
+                <p>html, head, body</p>
+                <h3>Metadata</h3>
+                <p>base, link, meta, style, title</p>
+                <h3>Sections</h3>
+                <p>address, article, aside, footer, header, h1, h2, h3, h4, h5, h6, hgroup, main, nav, section, search</p>
+                <h3>Content</h3>
+                <p>blockquote, dd, div, dl, dt, figcaption, figure, hr, li, menu, ol, p, pre, ul</p>
+                <h3>Text</h3>
+                <p>a, abbr, b, bdi, bdo, br, cite, code, data, dfn, em, i, kdb, mark, q, rp, rt, ruby, s, samp, small, span, strong, sub, sup, time, u, var, wbr, del, ins</p>
+                <h3>Multimedia</h3>
+                <p>area, audio, img, map, track, video</p>
+                <h3>Embedded</h3>
+                <p>embed, iframe, object, picture, portal, source, svg, math</p>
+                <h3>Scripting</h3>
+                <h>canvas, noscript, script</h>
+                <h3>Table</h3>
+                <p>caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr</p>
+                <h3>Form</h3>
+                <p>button, datalist, fieldset, form, input, label, legend, meter, optgroup, option, output, progress, select, textarea</p>
+                <h3>Interactive</h3>
+                <p>details, dialog, summary</p>
+                <h3>Web</h3>
+                <p>slot, template</p>
+                <h3>! Obsolete</h3>
+                <p>acronym, big, center, content, dir, font, frame, frameset, image, marquee, menuitem, nobr, noembed, noframes, param, plaintext, rb, rtc, shadow, strike, tt, xmp</p>
+            </section><hr>
+
+            <section>
+                <h2 id="forms">Forms</h2>
+                <form name="example" action="page-here" method="post">
+                    <fieldset>
+                        <legend>Legend of fieldset</legend>
+                        <label for="op1"><input type="radio" id="op1" name="fieldset"> Option 1</label>
+                        <label for="op2"><input type="radio" id="op2" name="fieldset"> Option 2</label>
+                    </fieldset>
+
+                    <h3>Types of input</h3>
+                    <label><input type="button" value="button"> Button</label><br>
+                    <label><input type="checkbox"> Checkbox</label><br>
+                    <label><input type="color"> Color</label><br>
+                    <label><input type="date"> Date</label><br>
+                    <label><input type="datetime-local"> Datetime-local</label><br>
+                    <label><input type="email"> Email</label><br>
+                    <label><input type="hidden"> Hidden</label><br>
+                    <label><input type="image"> Image</label><br>
+                    <label><input type="month"> Month</label><br>
+                    <label><input type="number"> Number</label><br>
+                    <label><input type="password"> Password</label><br>
+                    <label><input type="radio"> Radio</label><br>
+                    <label><input type="range"> Range</label><br>
+                    <label><input type="reset"> Reset</label><br>
+                    <label><input type="search"> Search</label><br>
+                    <label><input type="submit"> Submit</label><br>
+                    <label><input type="tel"> Tel</label><br>
+                    <label><input type="text"> Text</label><br>
+                    <label><input type="time"> Time</label><br>
+                    <label><input type="url"> Url</label><br>
+                    <label><input type="week"> Week</label>
+
+                    <h3>Types of button</h3>
+                    <button type="submit">Submit</button> 
+                    <button type="reset">Reset</button> 
+                    <button type="button">Do nothing</button>
+                    <button disabled>Disabled</button>
+                </form>
+            </section>
+            <!-- Page content / end -->
+
+        </main>
+        <footer></footer>
+    </body>
+</html>
